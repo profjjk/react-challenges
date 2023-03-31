@@ -6,6 +6,7 @@ import './style.scss';
 export const Home = () => {
     return (
         <main id={'home'}>
+            <h1>React Challenges</h1>
             {apps.map((app: App, index: number) => (
                 <div className={'app-link'} key={index}>
                     <h2>{app.name}</h2>

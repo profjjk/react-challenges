@@ -1,11 +1,18 @@
 #home {
-  padding: 4rem;
+  padding: 6rem 4rem 4rem 4rem;
   display: flex;
   flex-wrap: wrap;
   width: fit-content;
   gap: 4rem;
   justify-content: space-evenly;
   align-items: center;
+
+  h1 {
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    font-size: 4rem;
+  }
 
   a {
     color: white;
