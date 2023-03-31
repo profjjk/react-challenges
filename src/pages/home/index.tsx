@@ -8,7 +8,7 @@ export const Home = () => {
         <main id={'home'}>
             {apps.map((app: App, index: number) => (
                 <div className={'app-link'} key={index}>
-                    <div>{app.name}</div>
+                    <h2>{app.name}</h2>
                     <Link to={app.url} style={{ backgroundImage: app.gif && `url(${app.gif})` }} />
                 </div>
             ))}
