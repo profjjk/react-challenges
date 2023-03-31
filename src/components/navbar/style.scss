@@ -1,0 +1,16 @@
+.navbar {
+  color: beige;
+  border-color: beige;
+  z-index: 2;
+  background-color: #23272f;
+  position: fixed;
+  top: 0;
+  padding: 0 2rem;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: end;
+  border-bottom: 1px solid beige;
+}
