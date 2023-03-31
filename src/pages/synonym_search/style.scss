@@ -1,0 +1,89 @@
+#word-search {
+  font-size: 2rem;
+  color: beige;
+
+  form {
+    position: fixed;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 150px;
+    z-index: 2;
+    background-color: #23272f;
+
+    input {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+    }
+
+    button {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+      background-color: beige;
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+      }
+      &:disabled {
+        cursor: default;
+        color: white;
+        background-color: gray;
+      }
+    }
+  }
+}
+
+#synonyms-div, #definition-div {
+  position: absolute;
+  top: 200px;
+  padding: 2rem;
+}
+
+#synonyms-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  width: 100%;
+
+  div {
+    font-size: 2rem;
+    margin: auto;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      color: white;
+    }
+  }
+}
+
+#definition-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+
+  p {
+    margin: 1rem;
+  }
+
+  .partOfSpeech {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .meanings {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding-left: 2rem;
+    gap: 1rem;
+  }
+}
+

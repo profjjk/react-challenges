@@ -2,5 +2,7 @@
   { "url": "circle-click", "name": "Circle Click", "gif": "/images/circle-click.gif"},
   { "url": "checkout-queue", "name": "Checkout Queue", "gif": "/images/checkout-queue.gif"},
   { "url": "color-quiz", "name": "Color Quiz", "gif": "/images/color-quiz.gif" },
-  { "url": "file-explorer", "name": "File Explorer", "gif": "/images/file-explorer.gif" }
+  { "url": "file-explorer", "name": "File Explorer", "gif": "/images/file-explorer.gif" },
+  { "url": "synonym-search", "name": "Synonym Search", "gif": "/images/synonym-search.gif" },
+  { "url": "memory-game", "name": "Memory Game", "gif": "/images/memory-game.gif" }
 ]
