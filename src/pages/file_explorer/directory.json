@@ -1,0 +1,141 @@
+[
+  {
+    "name": "node_modules",
+    "children": [
+      {
+        "name": "jest"
+      }
+    ]
+  },
+  {
+    "name": "public",
+    "children": [
+      {
+        "name": "index.html"
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "children": [
+      {
+        "name": "components",
+        "children": [
+          {
+            "name": "auto_complete",
+            "children": [
+              {
+                "name": "index.tsx"
+              },
+              {
+                "name": "style.scss"
+              }
+            ]
+          },
+          {
+            "name": "circle_click",
+            "children": [
+              {
+                "name": "CircleClick.test.tsx"
+              },
+              {
+                "name": "index.tsx"
+              },
+              {
+                "name": "style.scss"
+              }
+            ]
+          },
+          {
+            "name": "color_picker",
+            "children": [
+              {
+                "name": "index.tsx"
+              },
+              {
+                "name": "questions.json"
+              },
+              {
+                "name": "style.scss"
+              }
+            ]
+          },
+          {
+            "name": "file_explorer",
+            "children": [
+              {
+                "name": "directory.json"
+              },
+              {
+                "name": "Entry.tsx"
+              },
+              {
+                "name": "index.tsx"
+              },
+              {
+                "name": "style.scss"
+              },
+              {
+                "name": "types.ts"
+              }
+            ]
+          },
+          {
+            "name": "home",
+            "children": [
+              {
+                "name": "index.tsx"
+              },
+              {
+                "name": "style.scss"
+              }
+            ]
+          },
+          {
+            "name": "login_form",
+            "children": [
+              {
+                "name": "index.tsx"
+              },
+              {
+                "name": "mock-api.ts"
+              },
+              {
+                "name": "style.scss"
+              }
+            ]
+          },
+          {
+            "name": "index.ts"
+          }
+        ]
+      },
+      {
+        "name": "app",
+        "children": [
+          {
+            "name": "App.tsx"
+          },
+          {
+            "name": "style.scss"
+          }
+        ]
+      },
+      {
+        "name": "index.tsx"
+      }
+    ]
+  },
+  {
+    "name": "package.json"
+  },
+  {
+    "name": "package-lock.json"
+  },
+  {
+    "name": "README.md"
+  },
+  {
+    "name": "tsconfig.json"
+  }
+]
