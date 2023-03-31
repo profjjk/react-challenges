@@ -1,0 +1,26 @@
+[
+  {
+    "color": "#2596BE",
+    "options": ["#2596BE", "#48895C", "#CA97E0"]
+  },
+  {
+    "color": "#9D13DA",
+    "options": ["#B4B769", "#772D4D", "#9D13DA"]
+  },
+  {
+    "color": "#48895C",
+    "options": ["#CA97E0", "#48895C", "#2596BE"]
+  },
+  {
+    "color": "#772D4D",
+    "options": ["#9D13DA", "#772D4D", "#B4B769"]
+  },
+  {
+    "color": "#CA97E0",
+    "options": ["#CA97E0", "#2596BE", "#48895C"]
+  },
+  {
+    "color": "#B4B769",
+    "options": ["#9D13DA", "#772D4D", "#B4B769"]
+  }
+]

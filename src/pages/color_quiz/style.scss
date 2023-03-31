@@ -1,0 +1,43 @@
+#color-picker {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .color-box {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .button-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 400px;
+    justify-content: space-evenly;
+
+    div {
+      text-align: center;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 1rem;
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #23272f;
+      }
+    }
+  }
+
+  p {
+    position: absolute;
+    top: 48%;
+    text-align: center;
+    background: gray;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #87EC80;
+    padding: 1rem 2rem;
+  }
+}

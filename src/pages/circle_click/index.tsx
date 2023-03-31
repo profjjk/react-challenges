@@ -1,5 +1,4 @@
 import { MouseEvent, useState } from 'react';
-import { Navbar } from '../../components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRotateLeft, faRotateRight, faX } from '@fortawesome/free-solid-svg-icons';
 import './style.scss';
@@ -9,7 +8,7 @@ type Circle = {
     y: number
 }
 
-export const CircleClick = (): JSX.Element => {
+export const CircleClick = () => {
     const [ circles, setCircles ] = useState<Circle[]>([]);
     const [ poppedCircles, setPoppedCircles ] = useState<Circle[]>([]);
 
@@ -37,8 +36,6 @@ export const CircleClick = (): JSX.Element => {
 
     return (
         <>
-            <Navbar />
-
             <div className={'game-buttons'}>
                 <FontAwesomeIcon icon={faRotateLeft} onClick={handleUndo} />
                 <FontAwesomeIcon icon={faRotateRight} onClick={handleRedo} />

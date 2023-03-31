@@ -1,3 +1,5 @@
 [
-  { "url": "circle-click", "name": "Circle Click", "gif": "/images/circle-click.gif"}
+  { "url": "circle-click", "name": "Circle Click", "gif": "/images/circle-click.gif"},
+  { "url": "checkout-queue", "name": "Checkout Queue", "gif": "/images/checkout-queue.gif"},
+  { "url": "color-quiz", "name": "Color Quiz", "gif": "/images/color-quiz.gif" }
 ]
